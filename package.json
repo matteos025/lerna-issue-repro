@@ -1,0 +1,14 @@
+{
+  "name": "lerna-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start:local": "npx lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.9",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
